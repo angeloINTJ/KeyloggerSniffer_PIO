@@ -1309,7 +1309,7 @@ void setup() {
     if (Serial) {
         Serial.println();
         Serial.println("====================================================");
-        Serial.println(" USB Keyboard Sniffer v2.3.1 (Encrypted, Passive)");
+        Serial.println(" USB Keyboard Sniffer v1.0.0 (Encrypted, Passive)");
         Serial.println("====================================================");
         Serial.printf(" Flash log   : %lu events\n", events_logged);
         Serial.printf(" Write pos   : 0x%08lX / 0x%08lX\n", flash_write_offset, (uint32_t)FLASH_LOG_SIZE);
